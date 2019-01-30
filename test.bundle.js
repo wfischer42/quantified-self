@@ -91,9 +91,8 @@
   !*** ./node_modules/babel-loader/lib!./test/index.js ***!
   \*******************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
 eval("\n\n//# sourceURL=webpack:///./test/index.js?./node_modules/babel-loader/lib");
 
 /***/ }),
