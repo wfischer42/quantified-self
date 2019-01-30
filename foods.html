@@ -1,5 +1,13 @@
 <h1>Foods</h1>
 <button type="button" class='change-views' data-path="diary">Diary</button>
+<h2>Add a new food</h2>
+<form class="new-food" action="index.html" method="post">
+  <label for="food-name">Food Name</label>
+  <input type="text" name="food-name" placeholder="Banana" /><br>
+  <label for="calories">Calories per Serving</label>
+  <input type="number" name="calories" placeholder="200" min="0" max="1000" />
+  <button id="add-food-btn" name="button">Add</button>
+</form><br />
 <table id="food-list">
   <tr>
     <th>Food</th>
