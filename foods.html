@@ -8,6 +8,12 @@
   <input type="number" name="calories" placeholder="200" min="0" max="1000" />
   <button id="add-food-btn" name="button">Add</button>
 </form><br />
+
+<form class="filter-foods" action="index.html" method="post">
+  <label for="food-name">Filter</label>
+  <input id="filter-input" type="text" name="food-name" /><br>
+  <button id="clear-filter-btn" name="button" type="reset">Clear</button>
+</form>
 <table id="food-list">
   <tr>
     <th class="name-header">Food</th>
