@@ -13,3 +13,14 @@
 table button {
     width: 5em;
 }
+
+#food-view-grid {
+  padding: 3em;
+  display: grid;
+  grid-template-columns: 400px 400px;
+}
+
+#meals-list{
+  display: flex;
+  flex-direction: column;
+}

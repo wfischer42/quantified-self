@@ -1,24 +1,32 @@
 <h1>Foods</h1>
 <button type="button" class='change-views' data-path="diary">Diary</button>
-<h2>Add a new food</h2>
-<form class="new-food" action="index.html" method="post">
-  <label for="food-name">Food Name</label>
-  <input type="text" name="food-name" placeholder="Banana" /><br>
-  <label for="calories">Calories per Serving</label>
-  <input type="number" name="calories" placeholder="200" min="0" max="1000" />
-  <button id="add-food-btn" name="button">Add</button>
-</form><br />
+
 
 <form autocomplete="off" class="filter-foods" action="index.html" method="post">
   <label for="food-name">Filter</label>
   <input id="filter-input" type="text" name="food-name" />
   <button id="clear-filter-btn" name="button" type="reset">Clear</button>
 </form>
-<table id="food-list">
-  <tr>
-    <th class="name-header">Food</th>
-    <th class="calories-header">Calories</th>
-    <th class="button-header"></th>
-    <th class="button-header"></th>
-  </tr>
-</table>
+<div id="food-view-grid">
+  <div id="meals-list">
+
+  </div>
+  <div id="foods">
+    <h3>Add a new food</h3>
+    <form class="new-food" action="index.html" method="post">
+      <label for="food-name">Food Name</label>
+      <input type="text" name="food-name" placeholder="Banana" /><br>
+      <label for="calories">Calories per Serving</label>
+      <input type="number" name="calories" placeholder="200" min="0" max="1000" />
+      <button id="add-food-btn" name="button">Add</button>
+    </form><br />
+    <table id="food-list">
+      <tr>
+        <th class="name-header">Food</th>
+        <th class="calories-header">Calories</th>
+        <th class="button-header"></th>
+        <th class="button-header"></th>
+      </tr>
+    </table>
+  </div>
+</div>
