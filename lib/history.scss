@@ -1,0 +1,16 @@
+.day-row{
+  width: 300px;
+  border-right: dashed gray thin;
+  .progress-bar{
+    background-color: #04d160;
+    height: 5px;
+  }
+  .rd{
+    background-color: red;
+  }
+}
+
+#meal-history {
+    margin: 0 auto;
+    width: 300px;
+}
