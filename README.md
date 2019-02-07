@@ -1,6 +1,8 @@
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/wfischer42/quantified-self.svg?columns=all)](https://waffle.io/wfischer42/quantified-self)
 
 # Quantified Self Front-end
+Use the app: [Quantified-Self](https://quantified-self-app.surge.sh/)
+
 Quantified self lets you keep track of what you're made of by allowing you to log your meals and count your calories, then look back at your trends!
 
 It consumes a companion back-end API that's documented [here](https://github.com/hbellows/quantifiedSelfApi)
