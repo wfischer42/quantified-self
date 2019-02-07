@@ -1,22 +1,17 @@
-<h1>Foods</h1>
-<button type="button" class='change-views' data-path="diary">Diary</button>
-
+<div class="header"><h1>Quantified Self</h1>
+  <h2>Food Journal</h2>
+  <input type="date" id="diary-date" />
+  <button type="button" class='change-views' data-path="history">View History</button>
+</div>
 
 <div id="food-view-grid">
   <div id="meals-list">
-    <input type="date" id="diary-date" />
+    <h2>Your food journal</h2>
   </div>
   <div id="foods">
-    <h3>Add a new food</h3>
-    <form class="new-food" action="index.html" method="post">
-      <label for="food-name">Food Name</label>
-      <input type="text" name="food-name" placeholder="Banana" /><br>
-      <label for="calories">Calories per Serving</label>
-      <input type="number" name="calories" placeholder="200" min="0" max="1000" />
-      <button id="add-food-btn" name="button">Add</button>
-    </form><br />
+    <h2>All your foods</h2>
     <form autocomplete="off" class="filter-foods" action="index.html" method="post">
-      <label for="food-name">Filter</label>
+      <label for="food-name">filter</label>
       <input id="filter-input" type="text" name="food-name" />
       <button id="clear-filter-btn" name="button" type="reset">Clear</button>
     </form>
@@ -33,5 +28,13 @@
     </div>
     <div id="add-selection-buttons">
     </div>
+    <h4>Add a new food to your list</h5>
+    <form class="new-food" action="index.html" method="post">
+      <label for="food-name">Food Name</label>
+      <input type="text" name="food-name" placeholder="Banana" /><br>
+      <label for="calories">Calories per Serving</label>
+      <input type="number" name="calories" placeholder="200" min="0" max="1000" />
+      <button id="add-food-btn" name="button">Add</button>
+    </form><br />
   </div>
 </div>
