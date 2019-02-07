@@ -2,14 +2,8 @@
 <button type="button" class='change-views' data-path="diary">Diary</button>
 
 
-<form autocomplete="off" class="filter-foods" action="index.html" method="post">
-  <label for="food-name">Filter</label>
-  <input id="filter-input" type="text" name="food-name" />
-  <button id="clear-filter-btn" name="button" type="reset">Clear</button>
-</form>
 <div id="food-view-grid">
   <div id="meals-list">
-
   </div>
   <div id="foods">
     <h3>Add a new food</h3>
@@ -20,6 +14,11 @@
       <input type="number" name="calories" placeholder="200" min="0" max="1000" />
       <button id="add-food-btn" name="button">Add</button>
     </form><br />
+    <form autocomplete="off" class="filter-foods" action="index.html" method="post">
+      <label for="food-name">Filter</label>
+      <input id="filter-input" type="text" name="food-name" />
+      <button id="clear-filter-btn" name="button" type="reset">Clear</button>
+    </form>
     <table id="food-list">
       <tr>
         <th class="name-header">Food</th>
@@ -28,5 +27,10 @@
         <th class="button-header"></th>
       </tr>
     </table>
+    <div id="selection-prompt">
+    Add selections to ...
+    </div>
+    <div id="add-selection-buttons">
+    </div>
   </div>
 </div>

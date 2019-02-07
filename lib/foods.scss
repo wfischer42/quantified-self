@@ -17,10 +17,26 @@ table button {
 #food-view-grid {
   padding: 3em;
   display: grid;
-  grid-template-columns: 400px 400px;
+  grid-template-columns: 350px 450px;
 }
 
 #meals-list{
   display: flex;
   flex-direction: column;
+}
+
+.selected-row{
+  background-color: #ccc;
+}
+
+.food-cell{
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: none;
 }
